@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Прогноз погоди</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__content">
+                    <h1 class="header__logo">Прогноз погоди</h1>
+                    <form class="header__form form" id="form">
+                        <input type="text" placeholder="Введіть населений пункт..." id="inputCity" class="form__input">
+                        <button class="form__button">Пошук</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="weather">
+                <div class="weather__container">
+                    <!-- <article class="card">
+                        <h2 class="card__city">Київ <span class="card__country">Україна</span></h2>
+                        <div class="card__weather">
+                            <div class="card__temp">11°С</div>
+                            <div class="card__img">
+                                <img src="./img/sun.png" alt="weather">
+                            </div>
+                        </div>
+                        <p class="card__desc">Сонячно</p>
+                    </article> -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./js/dictionary.js" type="module"></script>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
